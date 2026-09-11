@@ -2,13 +2,13 @@
 
 **DecodeLabs Industrial Training Kit — Batch 2026**
 
-## 📌 Overview
+##  Overview
 
 This project builds a supervised machine learning model that classifies iris flowers into one of three species — **Setosa**, **Versicolor**, or **Virginica** — based on four physical measurements: sepal length, sepal width, petal length, and petal width.
 
 The goal is to demonstrate the end-to-end pipeline of a basic classification task: loading data, splitting the dataset, preprocessing the features, training a model, making predictions, and evaluating its performance.
 
-## 🎯 Objective
+##  Objective
 
 Build a basic classification model using a small dataset while applying core supervised learning concepts:
 
@@ -19,13 +19,13 @@ Build a basic classification model using a small dataset while applying core sup
 * Model evaluation
 * Prediction on new data
 
-## 🧠 Algorithm Used
+##  Algorithm Used
 
 **K-Nearest Neighbors (KNN)**
 
 KNN classifies a new data point by looking at its **K closest neighbors** in the training data and assigning the majority class among those neighbors.
 
-## 📊 Dataset
+##  Dataset
 
 * **Source:** Iris dataset (`sklearn.datasets.load_iris`)
 * **Samples:** 150
@@ -35,7 +35,7 @@ KNN classifies a new data point by looking at its **K closest neighbors** in the
 * **Measurements:** Sepal length, sepal width, petal length, petal width
 * **Unit:** Centimeters (cm)
 
-## ⚙️ Pipeline (IPO Framework)
+##  Pipeline (IPO Framework)
 
 | Stage       | Steps                                                                                                                         |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------- |
@@ -47,7 +47,7 @@ KNN classifies a new data point by looking at its **K closest neighbors** in the
 
 **Load → Split → Scale → Choose K → Train → Predict → Evaluate**
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Python 3
 * NumPy
@@ -55,7 +55,7 @@ KNN classifies a new data point by looking at its **K closest neighbors** in the
 * scikit-learn
 * matplotlib
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 iris_project/
@@ -65,7 +65,7 @@ iris_project/
 └── README.md                 # Project documentation
 ```
 
-## ▶️ How to Run
+##  How to Run
 
 ### 1. Open the project folder
 
@@ -92,7 +92,7 @@ It will also generate two chart images in the project folder:
 * `elbow_plot.png`
 * `confusion_matrix.png`
 
-## 📈 Results
+##  Results
 
 The model is evaluated using the test dataset.
 
@@ -111,7 +111,7 @@ The exact result may depend on the dataset split and the selected K value.
 
 ![Error Rate vs K](elbow_plot.png)
 
-## 🔑 Key Learnings
+##  Key Learnings
 
 * How a dataset can be used to train a supervised machine learning model
 * Why feature scaling is important for distance-based algorithms such as KNN
@@ -122,7 +122,7 @@ The exact result may depend on the dataset split and the selected K value.
 * Why F1 Score can provide additional information beyond accuracy
 * How a trained model can predict the class of a new flower
 
-## 🌸 New Data Prediction
+##  New Data Prediction
 
 After training and evaluating the model, the project also demonstrates prediction on a **brand-new flower sample**.
 
@@ -137,7 +137,7 @@ Petal Width
 
 These measurements are scaled using the same scaler used during training, and the trained KNN model predicts the flower's species.
 
-## 🎓 Project Concepts Demonstrated
+##  Project Concepts Demonstrated
 
 This project demonstrates the basic supervised learning workflow:
 
@@ -151,7 +151,7 @@ This project demonstrates the basic supervised learning workflow:
 8. **Evaluate the Model**
 9. **Predict New Data**
 
-## 👤 Author
+##  Author
 
 **Kashaf Zahra**
 
